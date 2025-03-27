@@ -15,7 +15,7 @@
 
     <div class="left" id="menu-list">
         <ul>
-            <a href="/atajoCreativo/#servicios">
+            <a href="index#servicios">
                 <li>
                     Servicios
                     <div class="bolita-blanca">
@@ -23,22 +23,22 @@
                     </div>
                 </li>
             </a>
-            <a href="/atajoCreativo/#clientes">
+            <a href="index#clientes">
                 <li>
                     Clientes
                 </li>
             </a>
-            <a href="/atajoCreativo/#nosotros">
+            <a href="index#nosotros">
                 <li>
                     Nosotros
                 </li>
             </a>
-            <a href="/atajoCreativo/#contactanos">
+            <a href="index#contactanos">
                 <li>
                     Contacto
                 </li>
             </a>
-            <a href="/atajoCreativo/blog">
+            <a href="blog">
                 <li>
                     Blog
                 </li>
