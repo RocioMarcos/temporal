@@ -1,0 +1,257 @@
+:root {
+    --bg-nav: #FFFFFF;
+    --bg-principal: #FFFFFF;
+    --bg-footer: #1E1E1E;
+    --bg-acento-violeta: #A8208A;
+
+    --logo-agua: #4FC0AC;
+    --logo-verde: #C0DB85;
+    --logo-gris: #A6ADD1;
+    --logo-violeta: #A8208A;
+    --logo-violeta-dark: #3f022c;
+    --logo-natanja: #EAA727;
+
+    --texto-principal: #000000;
+    --texto-secundario: #333333;
+    --texto-terciario: #FFFFFF;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--texto-secundario);
+}
+
+ul{
+    list-style: none;
+}
+
+.sm-none{
+    display: none;
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: var(--bg-footer);
+    color: var(--texto-terciario);
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer div.logo img.logo_sm{
+    display: block;
+    margin-top: 25px;
+    height: 75px;
+}
+
+footer div.logo img.logo_full{
+    display: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--texto-terciario);
+}
+
+footer .rrss{
+    text-align: left;
+}
+
+footer .rrss ul{
+    text-align: left;
+    min-height: 150px;
+    width: max-content;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .rrss li i{
+    margin-right: 8px;
+}
+
+footer .rrss .i-p{
+    margin-left: 30px;
+}
+
+footer .otros{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0px;
+    min-height: 75px;
+    color: rgba(255, 255, 255, 50%);
+}
+
+/* Nav */
+
+.block{
+    position: absolute;
+    z-index: 90;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000096;
+}
+
+nav{
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100vw;
+    transition: all 0.3s ease;
+}
+
+nav .right{
+    width: 100vw;
+    background: #A8208A;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 20px;
+    border-bottom: 1px solid white;
+}
+
+nav .right .logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .left{
+    background: #911876;
+    width: 100vw;
+}
+
+nav .right .logo_nav{
+    height: 2rem;
+}
+
+nav .right .bi{
+    font-size: 2rem;
+    color: white;
+}
+
+nav .right .bi{
+    cursor: pointer;
+}
+
+nav .left ul{
+    padding: 15px 0px;
+}
+
+nav .left ul a li{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+nav .left ul a .bolita-blanca{
+    display: none;
+}
+
+nav .left ul a:hover .bolita-blanca{
+    margin-left: 5px;
+    height: 5px;
+    width: 5px;
+    background: white;
+    border-radius: 100%;
+}
+
+@media (min-width: 700px){
+    .sm-none{
+        display: block;
+    }
+}
+
+@media (min-width: 998px){
+
+    footer div.logo img.logo_sm{
+        display: none;
+    }
+
+    footer div.logo img.logo_full{
+        margin-top: 1rem;
+        display: block;
+        width: 250px;
+    }
+
+    footer{
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: 2fr 2fr 3fr;
+        align-items: center;
+        padding: 20px 50px;
+    }
+    
+    footer .otros{
+        justify-self: flex-end;
+        text-align: right;
+        height: max-content;
+        min-height: 150px;
+    }
+
+
+    /* Nav */
+
+    nav {
+        /* background: #A8208A; */
+        background: transparent;
+        position: fixed;
+        width: 100%;
+    }
+
+    nav .right{
+        width: max-content;
+        height: 100%;
+        background: transparent;
+    }
+
+    nav .left {
+        display: block;
+        width: max-content;
+        background: transparent;
+    }
+
+    nav .right .bi{
+        display: none;
+    }
+
+    nav ul{
+        display: flex;
+        border-bottom: 1px solid white;
+    }
+
+    .block{
+        display: none;
+    }
+
+    nav .left ul a li{
+        display: flex;
+        align-items: center;
+        color: white;
+        text-transform: uppercase;
+        padding: 0px 20px;
+    }
+    
+
+}

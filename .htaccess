@@ -1,0 +1,21 @@
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_FILENAME} \.(css|js|png|jpg|ttf|ico|woff|woff2|webp|mp4|gif)$ [NC]
+
+RewriteRule ^ - [L]
+
+RewriteCond %{REQUEST_URI} !^index\.php$
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+AddType image/webp .webp
+
+# Redirigir a index.php
+ErrorDocument 400 /index.php
+ErrorDocument 401 /index.php
+ErrorDocument 403 /index.php
+ErrorDocument 404 /index.php
+ErrorDocument 500 /index.php
+ErrorDocument 502 /index.php
+ErrorDocument 503 /index.php
