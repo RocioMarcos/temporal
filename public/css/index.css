@@ -58,7 +58,6 @@ ul{
 }
 
 .welcome{
-    height: 100vh;
     width: 100vw;
     min-height: 200px;
     display: flex;
@@ -71,19 +70,24 @@ ul{
     background-repeat: repeat; */
 }
 
-.welcome #bgvideo{
+.welcome .videobg{
     position: absolute;
     top: 0px;
     left: 0px;
     width: 100vw;
-    max-width: 100vw;
+    height: auto;
     z-index: 10;
+    background-color: var(--logo-verde);
+}
+
+.welcome .videobg video{
+    max-height: 350px;
 }
 
 .welcome .capa-violeta{
     z-index: 12;
     width: 100%;
-    height: 100%;
+
     background: rgb(66,13,54);
     background: linear-gradient(45deg, rgba(66,13,54,1) 0%, rgba(168,32,138,1) 100%);
     opacity: .5;
@@ -200,18 +204,10 @@ ul{
 }
 
 .btn-start-now:active{
-    /* background: var(--white);
-    border: 3px solid var(--logo-agua); */
     color: #000000;
     box-shadow: 2px 1px 15px #00000068;
 }
 
-/* .btn-start-now:active p{
-    background: var(--logo-agua);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
 
 .clients{
     background-color: var(--logo-agua);
@@ -509,16 +505,56 @@ ul{
 }
 
 
+.md-only{
+    display: none;
+}
 
-@media (min-width: 768px) {
+
+@media (min-width: 711px) {
+    .welcome .videobg video{
+        max-height: none;
+    }
+    
+    
+    .md-only{
+        display: block;
+    }
+
+
     .us .bolitas{
         align-self: end;
         margin-top: 0px;
         width: 320px;
     }
+
+    .welcome{
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .welcome .capa-violeta{
+        min-height: 100%;
+    }
+
+    .welcome .videobg {
+        height: 100vh;
+        width: auto;
+    }
+
+    .welcome video{
+        min-width: 100vw;
+        height: 100vh;
+    }
+
+    .all .welcome .capa-violeta .texto-atajo h1{
+        font-size: 4rem;
+    }
 }
 
 @media (min-width: 998px){
+    .md-only{
+        display: none;
+    }
 
     .us .ul{
         display: block;
@@ -529,11 +565,13 @@ ul{
     }
 
     .welcome{
+        height: 100vh;
         margin-top: 0px;
     }
 
     .welcome .capa-violeta{
         padding-top: 3rem;
+        height: 100%;
     }
 
     .welcome, .video-background, .front{
@@ -579,6 +617,13 @@ ul{
         padding: 0rem 1rem;
         font-size: 4rem;
     }
+
+    .welcome .videobg video{
+        min-width: 100vw;
+        min-height: 100vh;
+        height: auto;
+    }
+    
 
     .welcome .logo-atajo .logo{
         height: 7rem;

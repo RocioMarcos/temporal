@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon">
 
@@ -40,13 +41,14 @@
                     <img src="public/img/logo-atajo.webp" alt="" class="logo">
                 </div>
             </div>
-            <video id="bgvideo" autoplay loop muted playsinline>
-                <source src="public/video/welcomebgl.mp4" type="video/mp4">
-                Tu navegador no soporta videos HTML5.
-            </video>
+           
+            <div class="videobg">
 
-
-
+                <video id="bgvideo" autoplay loop muted playsinline>
+                    <source src="public/video/welcomebgl.mp4" type="video/mp4">
+                    Tu navegador no soporta videos HTML5.
+                </video>
+            </div>
         </div>
 
         
@@ -216,7 +218,7 @@
             
         <div class="lastcall">
             <div class="mano">
-                <img src="public/img/mano.webp" alt="Apuntá a nosotros" loading="lazy">
+                <img class="animate__animated animate_bounce" src="public/img/mano.webp" alt="Apuntá a nosotros" loading="lazy">
             </div>
             <div class="texto">
                 <h2>¿Estás Listo?</h2>
@@ -240,7 +242,7 @@
                 <i class="bi-facebook"></i> /atajocreativook
             </li>
             <li class="whatsapp">
-                <i class="bi-whatsapp"></i> +54 351 574 8956 / +54 351 574 8956
+                <i class="bi-whatsapp"></i> +54 351 574 8956 /<br class=""> +54 351 574 8956
             </li>
         </ul>
     </div>
