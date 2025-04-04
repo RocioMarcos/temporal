@@ -1,7 +1,7 @@
 <footer>
     <div class="logo">
-        <img class="logo_full" src="public/img/logo-atajo+colores.png" alt="">
-        <img class="logo_sm" src="public/img/logo-atajo.png" alt="">
+        <img class="logo_full" src="public/img/logo-atajo+colores.webp" alt="">
+        <img class="logo_sm" src="public/img/logo-atajo.webp" alt="">
     </div>
     
     <div class="rrss">

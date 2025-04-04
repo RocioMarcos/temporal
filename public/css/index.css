@@ -24,6 +24,8 @@
     --agua-bg: #68C9B8;
     --verde-bg: #C0DB85;
     --gris-bg: #D3D6E8;
+    --naranja-bg: #EAA727;
+    --violeta-bg: #A8208A;
 }
 
 html {
@@ -109,7 +111,7 @@ ul{
     background-color: var(--bg-acento-violeta);
     width: 100vw;
     padding: 1rem 20vw 2rem 1rem;
-    background-image: url('../img/offerbg2.png');
+    background-image: url('../img/offerbg2.webp');
     background-size: cover;
     background-position: right;
     color: var(--texto-terciario);
@@ -379,7 +381,11 @@ ul{
     background-color: var(--gris-bg);
 }
 
-.cami, .emi, .vale{
+.us .general .naranja{
+    background-color: var(--naranja-bg);
+}
+
+.cami, .emi, .vale, .fede{
     width: 75px;
     height: 75px;
     background-size: cover;
@@ -389,15 +395,19 @@ ul{
 }
 
 .cami{
-    background-image: url('../img/usuarios/cami-img.png');
+    background-image: url('../img/usuarios/cami-img.webp');
 }
 
 .emi{
-    background-image: url('../img/usuarios/emi-img.png');
+    background-image: url('../img/usuarios/emi-img.webp');
 }
 
 .vale{
-    background-image: url('../img/usuarios/vale-img.png');
+    background-image: url('../img/usuarios/vale-img.webp');
+}
+
+.fede{
+    background-image: url('../img/usuarios/fede-img.webp');
 }
 
 .us .general .foto img{
@@ -567,7 +577,7 @@ ul{
     .offer{
         padding-right: 35vw;
         padding-left: 5rem;
-        background-image: url('../img/offerbg.png');
+        background-image: url('../img/offerbg.webp');
     }
 
     .offer h3{
@@ -752,10 +762,10 @@ ul{
         padding: 25px;
         border-radius: 100%;
         position: absolute;
-        left: calc(50% - 90px);
+        left: calc(50% - 82px);
     }
     
-    .cami, .emi, .vale{
+    .cami, .emi, .vale, .fede{
         width: 130px;
         height: 130px;
         background-size: cover;
@@ -783,6 +793,13 @@ ul{
         width: 50vw;
         text-align: end;
         padding: 1rem 110px 1rem 10px;
+    }
+
+    .naranja .texto {
+        background-color: var(--naranja-bg);
+        width: 50vw;
+        text-align: start;
+        padding: 1rem 10px 1rem 110px;
     }
 
     .us .texto h3{
@@ -1036,7 +1053,7 @@ nav .nav-text{
 .entrada .top-atajo{
     height: 500px;
     width: 100%;
-    background-image: url('../img/posts/defaultbanner.png');
+    background-image: url('../img/posts/defaultbanner.webp');
     background-size: cover;
     background-position: center;
     box-shadow: 70px 0px 70px #0000006c inset;
@@ -1199,5 +1216,3 @@ nav .nav-text{
         transform: translateX(calc(101vw + 100px));
     }
 }
-
-

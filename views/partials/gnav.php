@@ -2,7 +2,7 @@
     <div class="right">
         <div class="logo">
             <a href="/atajoCreativo/">
-                <img class="logo_nav" src="public/img/logo-atajo.png" alt="">
+                <img class="logo_nav" src="public/img/logo-atajo.webp" alt="">
             </a>
             <?php
             if ($_GET['url'] === 'blog') {

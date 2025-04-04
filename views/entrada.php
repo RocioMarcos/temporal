@@ -43,7 +43,7 @@
                 </h3>
                 <div class="author">
                     <div class="foto-perfil">
-                        <img src="public/img/usuarios/cami-img.png" alt="">
+                        <img src="public/img/usuarios/cami-img.webp" alt="">
                     </div>
                     <div class="descripcion">
                         <h4>

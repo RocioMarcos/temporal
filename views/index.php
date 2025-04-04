@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="public/css/main.css">
     <link rel="stylesheet" href="public/css/index.css">
 
-     <!-- Fonts -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
@@ -29,14 +29,14 @@
         <div class="welcome">
             <div class="capa-violeta">
                 <div class="texto-atajo">
-                    <img src="public/img/lema.png" alt="Lema Atajo Creativo">
+                    <img src="public/img/lema.webp" alt="Lema Atajo Creativo">
                     <h1>
                         Trabajamos para volver tus sueños realidad
                     </h1>
                 </div>
     
                 <div class="logo-atajo">
-                    <img src="public/img/logo-atajo.png" alt="" class="logo">
+                    <img src="public/img/logo-atajo.webp" alt="" class="logo">
                 </div>
             </div>
 
@@ -56,13 +56,13 @@
             <div class="texto">
                 <h2>¡Animate a un cambio positivo!</h2>
                 <p>Contactá con nosotros hoy mismo, y descubrí cómo podemos transformar tu marca con creatividad, estrategia y pasión. ¡Es momento de brillar!</p>
-                <a href="https://wa.me/+543515748956" class="btn-start-now"> 
+                <button href="#" class="btn-start-now"> 
                     <h5>
                         Comenzá hoy 
                     </h5> 
-                </a>
+                </button>
             </div>
-            <img src="public/img/mkt.png" alt="Marketing Digital" class="mkt">
+            <img src="public/img/mkt.webp" alt="Marketing Digital" class="mkt">
         </div>
 
 
@@ -108,7 +108,7 @@
                     <p>- Carlos, Aromas Oxigenar</p>
                 </div>
             </div>
-            <img src="public/img/colores.png" alt="Esferas" class="bolitas">
+            <img src="public/img/colores.webp" alt="Esferas" class="bolitas">
         </div>
     
         <div class="we">
@@ -181,25 +181,42 @@
                         acrobacias aéreas.
                     </div>
                 </li>
+                
+                <hr>
+                <li class="odd">
+                    <div class="general naranja">
+                        <div class="texto">
+                            <h3>Federico Baigorrí</h3>
+                            <h5>Editor de videos</h5>
+                        </div>
+                        <div class="foto naranja">
+                            <div class="fede"></div>
+                        </div>
+                    </div>
+                    <div class="descripcion">
+                        Soy Fede, técnico en diseño gráfico. Especializado en Motion Graphics. Ocupo el puesto de editor de videos. Mi trabajo no tiene inspiración sin la música, sobre todo de Coldplay. <br>
+                        Me gustan los autos, los deportes y sacar fotos en mi tiempo libre.
+                    </div>
+                </li>
             </ul>
 
             <br>
 
-            <img src="public/img/colores.png" alt="Esferas" class="bolitas">
+            <img src="public/img/colores.webp" alt="Esferas" class="bolitas">
         </div>
 
         <br style="display: hidden; background: transparent;" id="contactanos">
             
         <div class="lastcall">
             <div class="mano">
-                <img src="public/img/mano.png" alt="">
+                <img src="public/img/mano.webp" alt="">
             </div>
             <div class="texto">
                 <h2>¿Estás Listo?</h2>
                 <h4>¡Animate y crecé en el mundo digital junto a nosotros!</h4>
 
                 <div class="btn">
-                    <a href="https://wa.me/+543515748956" class="btn-start-now" target="_blank">Contactanos</a>
+                    <a href="" class="btn-start-now">Contactanos</a>
                 </div>
 
                 <p>O mandanos un mensaje por nuestras redes:</p>
@@ -207,32 +224,16 @@
         </div>
         <ul class="contactos">
             <li class="instagram">
-                <a href="www.instagram.com/atajocreativook/">
-                    <i class="bi-instagram"></i> @Atajocreativook
-                </a>
+                <i class="bi-instagram"></i> @Atajocreativook
             </li>
             <li class="linkedin">
-                <a href="www.linkedin.com/in/atajocreativo/">
-                    <i class="bi-linkedin"></i> @atajocreativo
-                </a>
+                <i class="bi-linkedin"></i> @atajocreativo
             </li>
-            <!-- <li class="facebook">
-                <a href="">
-                    <a href="">
-
-                    </a>
-                </a>
+            <li class="facebook">
                 <i class="bi-facebook"></i> /atajocreativook
-            </li> -->
+            </li>
             <li class="whatsapp">
-                <i class="bi-whatsapp"></i> 
-                <a href="https://wa.me/+543517055854">
-                    +54 351 705 5854 
-                </a>
-                / 
-                <a href="https://wa.me/+543515748956">
-                    +54 351 574 8956
-                </a>
+                <i class="bi-whatsapp"></i> +54 351 574 8956 / +54 351 574 8956
             </li>
         </ul>
     </div>
