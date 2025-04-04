@@ -20,6 +20,7 @@
 </head>
 
 <body>
+
     <?php 
         include_once 'views/partials/gnav.php';
     ?>
@@ -39,6 +40,12 @@
                     <img src="public/img/logo-atajo.webp" alt="" class="logo">
                 </div>
             </div>
+            <video id="bgvideo" autoplay loop muted playsinline>
+                <source src="public/video/welcomebgl.mp4" type="video/mp4">
+                Tu navegador no soporta videos HTML5.
+            </video>
+
+
 
         </div>
 
@@ -73,16 +80,16 @@
             <h4>Que ya confiaron en nosotros:</h4>
 
             <ul class="marquesina">
-                <li><img class="logo-cli fanwich" src="public/img/marcas/fanwich-logo.webp" alt="Fanwich"></li>
-                <li><img class="logo-cli gustazo" src="public/img/marcas/gustazo-logo.webp" alt="Gustazo"></li>
-                <li><img class="logo-cli leos" src="public/img/marcas/leos-logo.webp" alt="Leos"></li>
-                <li><img class="logo-cli mardelgin" src="public/img/marcas/mardelgin-logo.webp" alt="MardelGin"></li>
-                <li><img class="logo-cli maridaje" src="public/img/marcas/maridaje-logo.webp" alt="Maridaje"></li>
-                <li><img class="logo-cli ovejeroferreira" src="public/img/marcas/ovejeroferreira-logo.webp" alt="Ovejero Ferreira"></li>
-                <li><img class="logo-cli oxigenar" src="public/img/marcas/oxigenar-logo.webp" alt="Oxigenar"></li>
-                <li><img class="logo-cli tamarindo" src="public/img/marcas/tamarindo-logo.webp" alt="Tamarindo"></li>
-                <li><img class="logo-cli tecnomas" src="public/img/marcas/tecnomas-logo.webp" alt="Tecnomas"></li>
-                <li><img class="logo-cli tiiip" src="public/img/marcas/tiiip-logo.webp" alt="Tiiip"></li>
+                <li><img class="logo-cli fanwich" src="public/img/marcas/fanwich-logo.webp" alt="Fanwich" loading="lazy"></li>
+                <li><img class="logo-cli gustazo" src="public/img/marcas/gustazo-logo.webp" alt="Gustazo" loading="lazy"></li>
+                <li><img class="logo-cli leos" src="public/img/marcas/leos-logo.webp" alt="Leos" loading="lazy"></li>
+                <li><img class="logo-cli mardelgin" src="public/img/marcas/mardelgin-logo.webp" alt="MardelGin" loading="lazy"></li>
+                <li><img class="logo-cli maridaje" src="public/img/marcas/maridaje-logo.webp" alt="Maridaje" loading="lazy"></li>
+                <li><img class="logo-cli ovejeroferreira" src="public/img/marcas/ovejeroferreira-logo.webp" alt="Ovejero Ferreira" loading="lazy"></li>
+                <li><img class="logo-cli oxigenar" src="public/img/marcas/oxigenar-logo.webp" alt="Oxigenar" loading="lazy"></li>
+                <li><img class="logo-cli tamarindo" src="public/img/marcas/tamarindo-logo.webp" alt="Tamarindo" loading="lazy"></li>
+                <li><img class="logo-cli tecnomas" src="public/img/marcas/tecnomas-logo.webp" alt="Tecnomas" loading="lazy"></li>
+                <li><img class="logo-cli tiiip" src="public/img/marcas/tiiip-logo.webp" alt="Tiiip" loading="lazy"></li>
             </ul>
         </div>
 
@@ -202,14 +209,14 @@
 
             <br>
 
-            <img src="public/img/colores.webp" alt="Esferas" class="bolitas">
+            <img src="public/img/colores.webp" alt="Esferas" class="bolitas" loading="lazy">
         </div>
 
         <br style="display: hidden; background: transparent;" id="contactanos">
             
         <div class="lastcall">
             <div class="mano">
-                <img src="public/img/mano.webp" alt="">
+                <img src="public/img/mano.webp" alt="Apuntá a nosotros" loading="lazy">
             </div>
             <div class="texto">
                 <h2>¿Estás Listo?</h2>

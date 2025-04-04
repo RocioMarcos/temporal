@@ -154,10 +154,10 @@ nav .right .bi{
 }
 
 nav .left ul{
-    padding: 15px 0px;
+    padding: 7px 0px 5px 0pc;
 }
 
-nav .left ul a li{
+nav .left ul li a{
     display: flex;
     align-items: center;
     color: white;
@@ -165,17 +165,6 @@ nav .left ul a li{
     padding: 10px 20px;
 }
 
-nav .left ul a .bolita-blanca{
-    display: none;
-}
-
-nav .left ul a:hover .bolita-blanca{
-    margin-left: 5px;
-    height: 5px;
-    width: 5px;
-    background: white;
-    border-radius: 100%;
-}
 
 @media (min-width: 700px){
     .sm-none{

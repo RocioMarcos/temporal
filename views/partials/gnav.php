@@ -15,37 +15,39 @@
 
     <div class="left" id="menu-list">
         <ul>
-            <a href="index#servicios">
-                <li>
+            <li>
+                <a href="index#servicios">
                     Servicios
-                    <div class="bolita-blanca">
+                </a>
+            </li>
 
-                    </div>
-                </li>
-            </a>
-            <a href="index#clientes">
-                <li>
+            <li>
+                <a href="index#clientes">
                     Clientes
-                </li>
-            </a>
+                </a>
+            </li>
+
+
+            <li>
             <a href="index#nosotros">
-                <li>
                     Nosotros
-                </li>
-            </a>
-            <a href="index#contactanos">
-                <li>
+                </a>
+            </li>
+            
+            <li>
+                <a href="index#contactanos">
                     Contacto
-                </li>
-            </a>
-            <a href="blog">
-                <li>
+                </a>
+            </li>
+            
+            <li>
+                <a href="blog">
                     Blog
-                </li>
-            </a>
+                </a>
+            </li>
         </ul>
-    </nav>
-</div>
+    </div>
+</nav>
 
 <div class="block" id="menu-bg">
     
