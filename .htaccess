@@ -1,5 +1,7 @@
-
 RewriteEngine On
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteCond %{REQUEST_FILENAME} \.(css|js|png|jpg|ttf|ico|woff|woff2|webp|mp4|gif)$ [NC]

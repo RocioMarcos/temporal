@@ -177,8 +177,8 @@
                 <li>
                     <div class="general gris">
                         <div class="texto">
-                            <h3>Valentina</h3>
-                            <h5>Social Media Manager / Community Manager</h5>
+                            <h3>Valentina Gori</h3>
+                            <h5>Diseñadora Gráfica</h5>
                         </div>
                         <div class="foto gris">
                             <div class="vale"></div>

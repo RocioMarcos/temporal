@@ -1,7 +1,7 @@
 <nav>
     <div class="right">
         <div class="logo">
-            <a href="/atajoCreativo/">
+            <a href="/">
                 <img class="logo_nav" src="public/img/logo-atajo.webp" alt="">
             </a>
             <?php
