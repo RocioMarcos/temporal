@@ -17,6 +17,11 @@
 
     <link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon">
 
+    <meta name="description" content="Trabajamos para volver tus sueños realidad. Somos una agencia de marketing digital, diseño gráfico y branding.">
+    <meta name="keywords" content="marketing, diseño, branding, agencia, publicidad, redes sociales, estrategia, comunicación, digital, Córdoba, Argentina">
+    <meta name="author" content="Atajo Creativo">
+    <meta name="robots" content="index, follow">
+
     <title>Atajo Creativo</title>
 </head>
 
@@ -65,11 +70,11 @@
             <div class="texto">
                 <h2>¡Animate a un cambio positivo!</h2>
                 <p>Contactá con nosotros hoy mismo, y descubrí cómo podemos transformar tu marca con creatividad, estrategia y pasión. ¡Es momento de brillar!</p>
-                <button href="#" class="btn-start-now"> 
+                <a href="https://wa.me/543517055854?text=%C2%A1Buenos%20d%C3%ADas!%0A%0AQuer%C3%ADa%20consultarle%20por%20los%20servicios%20de%20Atajo%20Creativo%20" class="btn-start-now" target="_blank">
                     <h5>
                         Comenzá hoy 
                     </h5> 
-                </button>
+                </a>
             </div>
             <img src="public/img/mkt.webp" alt="Marketing Digital" class="mkt">
         </div>
@@ -225,7 +230,7 @@
                 <h4>¡Animate y crecé en el mundo digital junto a nosotros!</h4>
 
                 <div class="btn">
-                    <a href="" class="btn-start-now">Contactanos</a>
+                    <a href="https://wa.me/543517055854?text=%C2%A1Buenos%20d%C3%ADas!%0A%0AQuer%C3%ADa%20consultarle%20por%20los%20servicios%20de%20Atajo%20Creativo%20" class="btn-start-now" target="_blank">Contactanos</a>
                 </div>
 
                 <p>O mandanos un mensaje por nuestras redes:</p>

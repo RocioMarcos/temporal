@@ -78,10 +78,14 @@ ul{
     height: auto;
     z-index: 10;
     background-color: var(--logo-verde);
+    overflow-x: hidden;
+
 }
 
 .welcome .videobg video{
     max-height: 350px;
+    overflow-x: hidden;
+
 }
 
 .welcome .capa-violeta{

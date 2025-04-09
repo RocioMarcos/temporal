@@ -27,7 +27,7 @@
                 </li>
             </a>
 
-            <a href="www.twitter.com/AtajoCreativo">
+            <a href="https://wa.me/543517055854?text=%C2%A1Buenos%20d%C3%ADas!%0A%0AQuer%C3%ADa%20consultarle%20por%20los%20servicios%20de%20Atajo%20Creativo%20">
                 <li>
                     <i class="bi bi-whatsapp"></i>
                         Cami: +54 351 705 5854 
